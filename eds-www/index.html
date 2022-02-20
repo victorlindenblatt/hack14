@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <title>Cadastrar</title>
+    <meta charset="UTF-8" />
+
+    
+    <link rel="stylesheet" href="style.css" />
+
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    
+  </head>
+  
+  <body>
+    
+    <main>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <img src="imagens/ifood.png" > 
+
+                    
+          
+          </div>
+
+          <h2 class="title" color>Cadastrar produto sem lactose</h2>
+            <p>
+              O iFood busca melhorar a experiência de todas as pessoas na hora da alimentação. Por isso estamos criando o "Selo L", para que as pessoas com intolerância a lactose consigam ter qualidade e segurança na hora do pedido. 
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <form class="formatofalacomigo" action="php/php.php"> <!--Formulário Fale comigo-->
+        <div class="formulario">
+            <h5 id="Principal">- Cadastro -</h5>
+            <br><br>
+                
+          
+          <label for="nome" >Nome:</label><br>
+          <input type="text" id="nome" name="nome"/><br>
+          <div class="erro" id="nome-erro"></div>
+          <br>
+          <label for="email" >Preço:</label><br>
+          <input type="text" id="email" name="email" /><br>
+          <div class="erro" id="email-erro"></div>
+          <br>
+          <label for="celular" >O produto contem lactose?:</label><br>
+          <input type="text" id="celular" name="celular" required /><br>
+          <div class="erro" id="celular-erro"></div>
+          <br>
+          
+          Descrição do produto:<br/>
+          <textarea name="mensagem" cols="50" rows="10" id="mensagem" placeholder="escreva aqui..."></textarea>
+          <div class="erro" id="mensagem-erro"></div>
+          <br><br>
+          
+          <label for="produto" >Imagem:</label><br>
+          <input type="file" id="produto" name="produto" required /><br>
+          <div class="erro" id="produto-erro"></div>
+          <br>
+        <input type="submit" value="Enviar" onClick="return validar()" />
+
+          
+          </form>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Cadastre o seu produto!</h2>
+           
+            
+
+
+
